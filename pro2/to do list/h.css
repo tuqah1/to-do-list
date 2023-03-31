@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|ZCOOL+KuaiLe&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    }
+    
+    body{
+    background: rgb(207, 175, 175);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 100vh;
+    font-size: 20px;
+    margin: 0.5rem;
+    
+    }
+    .main{
+       display: 'none';
+       opacity: 0;
+    }
+    nav{
+       background: rgb(185, 105, 118);
+       height: 80px;
+       width: 100%;
+    }
+    label.logo{
+    color: #fff;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    
+    }
+    nav ul{
+       float: right;
+       margin-right: 20px;
+    }
+    nav ul li{
+       display: inline-block;
+       line-height: 80px;
+       margin: 0 5px;
+    }
+    nav ul li a{
+       color: #fff;
+       font-size: 17px;
+       text-transform: uppercase;
+       border-radius: 3px;
+    }
+    a.active,a:hover{
+       background: #dd9696;
+       transition: 0.5s;
+    }
+    .active{
+       background: #dd9696; 
+    }
+    h6{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: 0.5rem;
+       color: #fff;
+       font-size: medium;
+       padding-top: 5cm;
+    }
+    
+    form{
+      
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 15vh;
+       margin: 0.5rem;
+    }
+    form input,form button{
+    border:none ;
+    padding: 0.4;
+    background: #fff;
+    font-size: 1.5rem;
+    
+    }
+    input::placeholder{
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: medium;
+       margin: 1px;
+     
+    }
+    form button{
+       color: rgb(206, 113, 128);
+       cursor: pointer;
+       transition: all 0.3s ease;
+    }
+    form button:hover{
+       color:#fff;
+      background:rgb(206, 113, 128);
+    }
+    .todo-cont{
+       display: flex;
+       justify-content: center;
+    }
+    .todo-list{
+       min-width: 30%;
+       list-style: none;
+    }
+    .todo{
+    display: flex;
+    background: #fff;
+    font-size: 1rem;
+    align-items: center;
+    margin: 0.5rem;
+    transition: all 0.5s ease;
+    
+    
+    }
+    .todo-item{
+       flex: 1;
+       background: #fff;
+    }
+    .but1,.but2{
+       background-color: rgb(230, 23, 85);
+       color: #fff;
+       cursor: pointer;
+       padding: 0.5rem;
+       font-size: 0.7rem;
+       border: none;
+    
+    }
+    .but1{
+       background-color: rgb(75, 209, 164);
+    }
+    .complet{
+    text-decoration: line-through;
+    opacity: 0.5;
+    
+    }
+    .fall{
+       transform: translateY(8rem) rotateZ(0deg);
+       opacity: 0.2;
+    
+    
+    }
+    .fa-trash
+    ,.fa-check ,.fa-edit{
+      pointer-events: none; 
+    }
