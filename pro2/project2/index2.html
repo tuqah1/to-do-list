@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>To do list</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="assets/images/list.png">
+        <meta name="discription" content="this is">
+        <link rel="icon" href="assets/images/list.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="loader.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Oswald&family=Rubik+Iso&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="main-div">
+
+        <div class="menue">
+            <nav> <label  class="logo"> Todo Lists</label>
+                <ul>
+                 <li><a class="active" href="#"> Home</a></li>
+                 <li><a  href="study.html">Study List</a></li>
+                 <li><a  href="shopping.html"> Shopping List</a></li>
+                 <li><a  href="work.html"> Work List</a></li>
+            
+               </ul>
+               </nav></nav>
+        </div>
+        <div class="center">
+            <div class="task-table">
+                <div class="header">
+                    <h1> what you want to get done today ?</h1>
+                   <div class="deel">
+                     <input type="text" id="taskName" placeholder="add your new task">
+                    <button id="add-button" class="circle"> add</button> 
+                </div>
+                        <div class="controls">
+                            <div class="filters">
+                                <span id="all" class="active">All</span>
+                                <span id="pending">Pending</span>
+                                <span id="completed">Completed</span>
+                            </div>
+                        </div>
+            </div>
+                <div id="tasks" class="todo-list">
+                    <div class="task">
+                        <div class="task-info ">
+                            <h4>Read a book</h4>
+                            <div><span>10/10/2023</span></div>
+                        </div>
+                        <div class="task-action">
+                            <button class="circulr del"><span class="material-symbols-outlined">
+                                delete
+                                </span></button>
+                            <button class="circulr done"><span class="material-symbols-outlined">
+                                task_alt
+                                </span></button>
+                            <button class="circulr edit"><span class="material-symbols-outlined">
+                                edit
+                                </span></button>
+                        </div>
+                    </div>
+                </div>
+
+              
+
+            </div>
+            
+        </div>
+    </div>
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ <script src="main.js"></script>
+</body>
+   
+    
+</html>
